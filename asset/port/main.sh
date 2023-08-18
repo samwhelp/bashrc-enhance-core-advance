@@ -56,152 +56,51 @@ __BASHRC_ENHANCE_DIR_PATH__="${__BASHRC_ENHANCE_DIR_PATH__:=${HOME}/.config/bash
 ################################################################################
 
 
-################################################################################
-### Head: attribute / color
-##
-
-##
-## Load ~/.config/bashrc-enhance/asset/port/asset/part/color.sh
-##
-
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/color.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/color.sh"
-
-
-##
-### Tail: attribute / color
-################################################################################
-
-
 
 
 ################################################################################
-### Head: path
+### Head: pre
 ##
 
 ##
-## Load ~/.config/bashrc-enhance/asset/port/asset/part/path.sh
+## Load: ~/.config/bashrc-enhance/asset/port/asset/component/pre.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/path.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/path.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/pre.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/pre.sh"
 
 
 ##
-### Tail: path
+### Tail: pre
 ################################################################################
 
 
 ################################################################################
-### Head: alias
+### Head: part
 ##
 
-
-alias ls='ls --color=auto'
-
-
 ##
-## Load ~/.config/bashrc-enhance/asset/port/asset/part/alias.sh
+## Load: ~/.config/bashrc-enhance/asset/port/asset/component/part.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/alias.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/alias.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/part.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/part.sh"
 
 
 ##
-### Tail: alias
+### Tail: part
 ################################################################################
 
 
 ################################################################################
-### Head: prompt
-##
-
-
-#PS1='[\u@\h \W]\$ '
-
-#PS1='\u@\H [\t] (\w) \n $ '
-
-#PS1='\n\u@\H [\t] (\w) \n $ '
-
-
-#PS1='┌───────────────────>\n│ \u@\H [\t] (\w)\n└─> '
-
-#PS1='┌─────\n│ \u@\H [\t] (\w)\n└───── '
-
-#PS1='│\n│ \u@\H [\t] (\w)\n│ '
-
-#PS1='┌────────────────────\n│ \u@\H [\t] (\w)\n│ '
-
-PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
-
-
-##
-## Load ~/.config/bashrc-enhance/asset/port/asset/part/prompt
-##
-
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/prompt.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/prompt.sh"
-
-
-##
-### Tail: prompt
-################################################################################
-
-
-################################################################################
-### Head: bash-it
+### Head: post
 ##
 
 ##
-## * https://github.com/Bash-it/bash-it
+## Load: ~/.config/bashrc-enhance/asset/port/asset/component/post.sh
 ##
 
-##
-## Load ~/.config/bashrc-enhance/port/vendor/bash-it.sh
-##
-
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/vendor/bash-it.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/vendor/bash-it.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/post.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/component/post.sh"
 
 
 ##
-### Tail: bash-it
-################################################################################
-
-
-################################################################################
-### Head: starship
-##
-
-##
-## * https://starship.rs/
-## * https://github.com/starship/starship
-##
-
-##
-## Load ~/.config/bashrc-enhance/port/vendor/.starship.sh
-##
-
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/vendor/starship.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/vendor/starship.sh"
-
-
-
-##
-### Tail: starship
-################################################################################
-
-
-################################################################################
-### Head: fzf
-##
-
-##
-## * https://wiki.archlinux.org/title/fzf
-##
-
-##
-## Load ~/.config/bashrc-enhance/asset/port/asset/part/fzf.bash
-##
-
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/fzf.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/asset/part/fzf.sh"
-
-
-##
-### Tail: fzf
+### Tail: post
 ################################################################################
