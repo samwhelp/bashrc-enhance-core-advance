@@ -35,6 +35,9 @@ __BASHRC_ENHANCE_DIR_PATH__="${HOME}/.config/bashrc-enhance"
 
 ```
 
+
+## Link
+
 | Link | GitHub |
 | ---- | ------ |
 | [bashrc-generator](https://samwhelp.github.io/bashrc-generator/) | [GitHub](https://github.com/samwhelp/bashrc-generator) |
